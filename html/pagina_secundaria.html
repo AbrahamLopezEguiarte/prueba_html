@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel='stylesheet' href="/css/estilos.css"/>
+</head>
+<body>
+    <h1>Contacto</h1>
+    <span id="contacto">
+        <ul class="menu_de_navegacion">
+            <li><a href="/html/index.html">Inicio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </span>
+    <hr>
+    <fieldset>
+        <legend>Comentarios para mi persona</legend>
+        <form action="pagina_secundaria.html" method="get">
+            <div id="control">
+                <label for="nombre">Nombre(s)</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required="true" class="form-control">
+                <label for="apellido">Apellido(s)</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido" required="true" class="form-control">
+                <label>Género</label>
+                <input type="radio" name="genero" id="masculino" value="masculino" required="true">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="femenino" value="femenino" required="true">
+                <label for="femenino">Femenino</label>
+                <input type="radio" name="genero" id="otro" value="otro" required="true">
+                <label for="otro">Otro</label><br/><br/>
+                <label for="ciudad">Ciudad</label>
+                <select name="autos" id="autos">
+                    <option value="Guadalajara">Guadalajara</option>
+                    <option value="Zapopan">Zapopan</option>
+                    <option value="Tonala">Tonalá</option>
+                    <option value="Tlajomulco">Tlajomulco</option>
+                    <option value="Otro">Otro</option>
+                </select><br/><br/>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su email" required="true" class="form-control"><br/><br/>
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required="true" class="form-control"><br/><br/>
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentario" id="comentario" rows="5" cols="100"></textarea><br/><br/>
+                <input type="checkbox" id="contrato" name="contrato" value="contratar">
+                <label for="contrato"></label>
+                <label>Me interesa contratarte</label><br/><br/>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>

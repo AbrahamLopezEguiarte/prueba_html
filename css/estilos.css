@@ -1,0 +1,228 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 18px;
+    background-color: #f0ebd8;
+}
+
+h1{
+    text-align: center;
+    color: #1d3557;
+}
+
+a:link{
+    color: #2a6f97;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #013a63;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #48cae4;
+    text-decoration: none;
+}
+
+a:active{
+    color: #023e8a;
+    text-decoration: none;
+}
+
+.menu_de_navegacion{
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    list-style-type: none;
+    background-color: #748cab;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.menu_de_navegacion li{
+    float: left;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 15px 13.9px;
+}
+
+li a:link{
+    color: #edf2f4;
+}
+
+li a:visited{
+    color: #f1e3d3;
+}
+
+li a:hover{
+    background-color: #1d3557;
+    color: #ffffff;
+}
+
+hr{
+    border: 2px solid #edf2f4;
+    height: 5px;
+    background-color: #8d99ae;
+}
+
+img{
+    width: 150px;
+}
+
+.padre{
+    display: flex;
+}
+
+#conocimiento{
+    background-color: hsla(207, 90%, 77%, 0.267);
+    margin: 0px 30px 100px;
+}
+
+#fortalezas{
+    background-color: hsla(207, 90%, 77%, 0.267);
+    margin: 0px 30px 100px;
+}
+
+#proyectos{
+    background-color: hsla(207, 90%, 77%, 0.267);
+    margin: 0px 30px 100px;
+    padding: 0px 0px 40px;
+}
+
+#acerca_de_mi{
+    background-color: hsla(207, 90%, 77%, 0.267);
+    margin: 0px 200px 100px 200px;
+}
+
+#a_quien_admiro{
+    background-color: hsla(207, 90%, 77%, 0.267);
+    margin: 0px 200px 100px 200px;
+}
+
+div p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+div img{
+    padding: 15px;
+    margin: 0px 5px;
+}
+
+div ul{
+    list-style: none;
+}
+
+div table{
+    margin: 20px 100px;
+}
+
+div li::before{
+    content: '';
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-image: url(/imagenes/milk-mocha-bear-ig-milkmochabear.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
+
+table, th, td{
+    border: 3px solid #031926;
+    border-collapse: collapse;
+    padding: 5px 30px;
+}
+
+th{
+    text-align: center;
+    background-color: #706677;
+    color: #d6cfcb;
+}
+
+tr:nth-child(even){
+    background-color: #002855;
+    color: #f1faee;
+}
+
+tr:nth-child(odd){
+    background-color: #3c6e71;
+    color: #d9d9d9;
+}
+
+#conocimiento p{
+    margin: 20px ;
+}
+
+#fortalezas p{
+    margin: 20px ;
+}
+
+#proyectos p{
+    margin: 20px 100px ;
+}
+
+#a_quien_admiro img{
+    height: 300px;
+}
+
+#footer a:link{
+    color: #013a63;
+}
+
+#footer a:visited{
+    color: #013a63;
+}
+
+#footer a:hover{
+    color: #468faf;
+}
+
+#footer a:active{
+    color: #023e8a;
+}
+
+.footer{
+    border: none;
+    background-color: #f0ebd8;
+}
+
+.footer p{
+    display: inline-block;
+    padding: 10px 506px;
+}
+
+fieldset{
+    margin: 30px 100px;
+    background-color: rgba(243, 230, 176, 0.534);
+}
+
+.form-control:focus, .form-control:active, .form-control:placeholder-shown, .form-control:-moz-only-whitespace{
+    outline: none;
+    background-color: #f0efeb;
+    box-shadow: 0 0 5px #f7cad0;
+    border-radius: 25px;
+    color: #000814;
+    margin: 5px 5px;
+}
+
+#email{
+    width: 250px;
+}
+
+#control{
+    margin: 30px;
+}
