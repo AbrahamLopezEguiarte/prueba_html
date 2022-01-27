@@ -36,22 +36,6 @@ a:active{
     text-decoration: none;
 }
 
-.menu_de_navegacion{
-    position: sticky;
-    top: 0;
-    font-size: 20px;
-    list-style-type: none;
-    background-color: #748cab;
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
-    font-size: 20px;
-}
-
-.menu_de_navegacion li{
-    float: left;
-}
-
 li a{
     display: block;
     text-align: center;
@@ -81,39 +65,8 @@ img{
     width: 150px;
 }
 
-.padre{
-    display: flex;
-}
-
-#conocimiento{
-    background-color: hsla(207, 90%, 77%, 0.267);
-    margin: 0px 30px 100px;
-}
-
-#fortalezas{
-    background-color: hsla(207, 90%, 77%, 0.267);
-    margin: 0px 30px 100px;
-}
-
-#proyectos{
-    background-color: hsla(207, 90%, 77%, 0.267);
-    margin: 0px 30px 100px;
-    padding: 0px 0px 40px;
-}
-
-#acerca_de_mi{
-    background-color: hsla(207, 90%, 77%, 0.267);
-    margin: 0px 200px 100px 200px;
-}
-
-#a_quien_admiro{
-    background-color: hsla(207, 90%, 77%, 0.267);
-    margin: 0px 200px 100px 200px;
-}
-
 div p{
-    display: inline-block;
-    vertical-align: top;
+    margin: 20px;
 }
 
 div img{
@@ -163,20 +116,89 @@ tr:nth-child(odd){
     color: #d9d9d9;
 }
 
-#conocimiento p{
-    margin: 20px ;
+fieldset{
+    margin: 30px 100px;
+    background-color: rgba(243, 230, 176, 0.534);
 }
 
-#fortalezas p{
-    margin: 20px ;
+.menu_de_navegacion{
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    list-style-type: none;
+    background-color: #748cab;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.menu_de_navegacion li{
+    float: left;
+}
+
+.padre{
+    display: flex;
+}
+
+#conocimiento{
+    background-color: hsla(207, 90%, 77%, 0.267);
+    margin: 0px 30px 100px;
+}
+
+#fortalezas{
+    background-color: hsla(207, 90%, 77%, 0.267);
+    margin: 0px 30px 100px;
+}
+
+#proyectos{
+    background-color: hsla(207, 90%, 77%, 0.267);
+    margin: 0px 30px 100px;
+    padding: 0px 0px 40px;
+}
+
+#acerca_de_mi{
+    background-color: hsla(207, 90%, 77%, 0.267);
+    margin: 0px 200px 100px 200px;
+}
+
+#a_quien_admiro{
+    background-color: hsla(207, 90%, 77%, 0.267);
+    margin: 0px 200px 100px 200px;
+}
+
+.parrafo_yo{
+    height: 400px;
+}
+
+.parrafo_yo p {
+    line-height: 2;
+    padding: 20px;
+}
+
+.parrafo_yo img{
+    width: 200px;
+    float: left;
+}
+
+.parrafo_newton{
+    height: 280px;
+}
+
+.parrafo_newton p {
+    padding: 20px;
+    line-height: 1.25;
+}
+
+.parrafo_newton img{
+    width: 200px;
+    float: left;
 }
 
 #proyectos p{
+    display: inline-block;
+    vertical-align: top;
     margin: 20px 100px ;
-}
-
-#a_quien_admiro img{
-    height: 300px;
 }
 
 #footer a:link{
@@ -202,12 +224,7 @@ tr:nth-child(odd){
 
 .footer p{
     display: inline-block;
-    padding: 10px 506px;
-}
-
-fieldset{
-    margin: 30px 100px;
-    background-color: rgba(243, 230, 176, 0.534);
+    padding: 10px 480px;
 }
 
 .form-control:focus, .form-control:active, .form-control:placeholder-shown, .form-control:-moz-only-whitespace{
